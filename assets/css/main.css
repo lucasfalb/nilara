@@ -1,0 +1,355 @@
+.h2-blue {
+	font-size: 34px;
+	color: #1B97D3;
+	font-weight: bold;
+}
+img {
+	object-fit: contain;
+}
+main {
+	width: 82.3rem;
+	margin: 0 auto;
+}
+
+/* CLASSES GENÉRICAS */
+
+.nl-main-btn {
+	background-color: #1B97D3;
+	color: white;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 20px 40px;
+	margin: 20px 0;
+	border-radius: 10px;
+	border: transparent;
+}
+.nl-main-btn:hover{
+	color: rgb(255, 255, 255);
+	background-image: -webkit-linear-gradient(45deg, #0d3f58 50%, transparent 60%);
+	background-image: linear-gradient(45deg, #0c5174 50%, transparent 60%);
+	background-position: 100%;
+	background-size: 400%;
+	-webkit-transition: background 700ms ease-in-out;
+	transition: background 700ms ease-in-out;
+	animation-delay: .1s;
+}
+
+.nl-main {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+.nl-main-article {
+	width: 60%;
+}
+.nl-main-article p {
+	font-size: 20px;
+	line-height: 34px;
+}
+.nl-main-article h2 {
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 600;
+}
+.nl-main-img {
+	width: 30%;
+	height: 425px;
+}
+.nl-main-img img {
+	position: absolute;
+	top: -190px;
+	right: -20px;
+	width: inherit;
+}
+.nl-main-div {
+	width: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nl-main-div-text h3 {
+	margin: 0;
+	font-size: 30px;
+}
+/* SECTION 2 */
+
+.nl-main2 {
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	overflow: hidden;
+	margin-bottom: 40px;
+}
+.nl-main-vantagens {
+	width: 50%;
+	margin-bottom: 20px;
+}
+.nl-main-vantagens p {
+	max-width: 60%;
+	font-size: 16px;
+	line-height: 24px;
+}
+.nl-main-vantagens h2 {
+	margin-top: 0;
+}
+.nl-main-vantagens ul li {
+	padding: 10px 0;
+	box-sizing: border-box;
+	font-size: 18px;
+	margin-left: -18px;
+	color: #1B97D3;
+	font-weight: 600;
+	align-items: center;
+	display: flex;
+}
+.nl-main-vantagens ul li:before {
+	content: "\2022";
+	color: transparent;
+	border: 1px solid #707070;
+	border-radius: 50px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-left: -1.2em;
+	margin-right: 1em;
+}
+.nl-main-video {
+	display: flex;
+	width: 50%;
+	height: 355px;
+	background-color: #333333;
+	border-radius: 10px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.nl-main-video i {
+	color: white;
+	font-size: 25px;
+	background-color: #1B97D3;
+	padding: 25px;
+	border-radius: 50%;
+}
+/* SECTION 3 FULL */
+
+.nl-sectionfull-blue {
+	width: 100%;
+	height: 400px;
+	background-color: #7dc1e4;
+	background-image: url(./img/fullblue.png);
+	background-position-x: -380px;
+	background-position-y: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nl-sectionfull-container {
+	width: 82.3rem;
+	margin: 0 auto;
+	position: relative;
+}
+.nl-sectionfull-texto {
+	color: white;
+	width: 29%;
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	right: 155px;
+	top: 100px;
+}
+.nl-sectionfull-texto span {
+	font-size: 100px;
+	position: absolute;
+	top: -30px;
+	left: -50px;
+}
+/* SECTION 4 */
+
+.nl-main-ramal {
+	margin: 40px 0;
+	width: 50%;
+}
+.nl-main-ramal p {
+	max-width: 85%;
+	font-size: 16px;
+	line-height: 24px;
+}
+.nl-main-ramal h2 {
+	margin-top: 0;
+}
+.nl-main-container-img {
+	width: 50%;
+	height: 350px;
+	display: flex;
+	overflow: hidden;
+}
+/* teste */
+
+.nl-duvidas {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.nl-duvidas-box {
+	overflow: hidden;
+	box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.5);
+}
+.nl-duvida {
+	margin: 10px 0;
+	width: 100%;
+	color: rgb(0, 0, 0);
+	overflow: hidden;
+}
+.nl-duvida input {
+	display: none;
+}
+.nl-duvida-label {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+	background: #f9f9f9;
+	font-weight: bold;
+	cursor: pointer;
+}
+.nl-duvida-label:hover {
+	background: #adadad5e;
+}
+.nl-duvida-label::after {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	content: "+";
+	width: 1em;
+	height: 1em;
+	font-size: 25px;
+	text-align: center;
+	transition: all 0.35s;
+}
+.nl-duvida-content {
+	max-height: 0;
+	padding: 0 1em;
+	color: black;
+	background: white;
+	transition: all 0.35s;
+}
+.nl-duvida-close {
+	display: flex;
+	justify-content: flex-end;
+	padding: 1em;
+	font-size: 0.75em;
+	background: #2c3e50;
+	cursor: pointer;
+}
+.nl-duvida-close:hover {
+	background: #8d8b8b;
+}
+input:checked + .nl-duvida-label {
+	background: #f9f9f9;
+}
+input:checked + .nl-duvida-label::after {
+	content: "-";
+}
+input:checked ~ .nl-duvida-content {
+	max-height: 100vh;
+	padding: 1em;
+}
+
+
+/* CSS PAGE */
+.nl-page-orange{
+	background-color: #F0B945;
+}
+.nl-page-green{
+	background-color: #11B870;
+}
+.nl-sectionfull-page{
+	width: 100%;
+	height: 180px;
+	
+}
+.nl-fullpage-content{
+	width: 82.3rem;
+	height: 180px;
+	margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+	color: white;
+
+}
+.nl-fullpage-content h1,.nl-fullpage-content h2{
+	margin:0;
+}
+.nl-fullpage-content h1{
+	font-size: 34px;
+}
+.nl-fullpage-content h2{
+	font-size: 18px;
+}
+.nl-fullpage-content h3{
+	font-size: 18px;
+	font-weight: 500;
+}
+.nl-article{
+	width: 82.3rem;
+	margin: 0 auto;
+}
+.nl-article p{
+	font-size: 1rem;
+	line-height: 28px;
+}
+
+.nl-planos{
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+	margin: 40px 0;
+}
+.nl-planos-box{
+	width: 32%;
+	padding: 10px;
+	border: 1px solid #DEDBDB;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+.nl-planos-box:hover{
+	border:1px solid #1B97D3;
+}
+.nl-planos-box ul li{
+	list-style-type: none;
+	text-align: center;
+	padding: 5px 0;
+}
+.nl-planos-box ul{
+	padding: 0;
+}
+.nl-planos-box h2{
+	margin-bottom: 0;
+	font-size: 22px;
+	font-weight: 400;
+}
+.nl-planos-box span{
+	font-size: 14px;
+	color: #939394; 
+	margin-bottom: 20px;
+}
+.nl-planos-box button{
+	padding: 10px 80px; 
+	background-color: #1B97D3;
+	color: white;
+	border: transparent;
+	border-radius: 10px;
+}
+.nl-planos-box strong{
+    color:#1B97D3;
+	font-size: 24px;
+}
